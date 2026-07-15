@@ -48,6 +48,8 @@
     border-radius:14px; background:var(--card); color:var(--text); font-size:18px}
   .ans:active{transform:scale(.99)}
   .ans .k{display:inline-block; min-width:26px; font-weight:700; color:var(--muted)}
+  .ans.sel{border-color:var(--brand); background:var(--card)}
+  .ans.sel .k{color:var(--brand)}
   .ans.correct{border-color:var(--ok); background:var(--okbg)}
   .ans.correct .k{color:var(--ok)}
   .ans.wrong{border-color:var(--bad); background:var(--badbg)}
@@ -168,39 +170,42 @@ function startQuiz(ids, opt){
       ${q.img?`<img class="qimg" src="${q.img}" alt="">`:''}
       <p class="q">${q.q}</p>
       <div id="ans"></div>
-      <button class="next" disabled>${pos+1<ids.length?'Weiter':'Fertig'}</button>
+      <button class="next" disabled>${feedback?'Bestätigen':(pos+1<ids.length?'Weiter':'Fertig')}</button>
     </div>`);
     el.querySelector('.back').onclick = ()=> isExam? (confirm('Prüfung abbrechen?')&&home()) : home();
     const box = el.querySelector('#ans');
     const nextBtn = el.querySelector('.next');
-    const chosen = answers[pos];
+    let sel = null, committed = false;
 
     q.a.forEach((txt,ai)=>{
       const b = $(`<button class="ans"><span class="k">${ai+1}</span> ${txt}</button>`);
-      b.onclick = ()=>{
-        if(answers[pos]!==null) return;
-        answers[pos]=ai;
-        if(ai!==q.c) markWrong(qi); else clearWrong(qi);
-        [...box.children].forEach(c=>c.disabled=true);
-        if(feedback){
-          box.children[q.c].classList.add('correct');
-          if(ai!==q.c){ b.classList.add('wrong'); addShqip(el, q, nextBtn); }
-        } else {
-          b.style.borderColor='var(--brand)'; b.style.background='var(--card)';
-          b.querySelector('.k').style.color='var(--brand)';
-        }
-        nextBtn.disabled=false;
+      b.onclick = ()=>{                         // tap to select — changeable until confirmed
+        if(committed) return;
+        sel = ai;
+        [...box.children].forEach(c=>c.classList.remove('sel'));
+        b.classList.add('sel');
+        nextBtn.disabled = false;
       };
       box.appendChild(b);
     });
-    // restore if revisiting
-    if(chosen!==null){
-      [...box.children].forEach(c=>c.disabled=true);
-      if(feedback){ box.children[q.c].classList.add('correct'); if(chosen!==q.c){ box.children[chosen].classList.add('wrong'); addShqip(el, q, nextBtn); } }
-      else box.children[chosen].style.borderColor='var(--brand)';
-      nextBtn.disabled=false;
-    }
-    nextBtn.onclick = ()=>{ if(pos+1<ids.length){pos++; step();} else finish(); };
+
+    nextBtn.onclick = ()=>{
+      if(!committed){
+        if(sel===null) return;
+        answers[pos] = sel;
+        if(sel!==q.c) markWrong(qi); else clearWrong(qi);
+        if(feedback){                            // lock in, then show the solution
+          committed = true;
+          [...box.children].forEach(c=>{ c.disabled=true; c.classList.remove('sel'); });
+          box.children[q.c].classList.add('correct');
+          if(sel!==q.c){ box.children[sel].classList.add('wrong'); addShqip(el, q, nextBtn); }
+          nextBtn.textContent = pos+1<ids.length?'Weiter':'Fertig';
+          return;
+        }
+        // exam: no feedback — confirm advances directly
+      }
+      if(pos+1<ids.length){ pos++; step(); } else finish();
+    };
     render(el);
   }
 
