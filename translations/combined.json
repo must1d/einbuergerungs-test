@@ -1,47 +1,47 @@
 [
 {
-"sq": "Në Gjermani, njerëzit mund të thonë haptas diçka kundër qeverisë, sepse …",
+"sq": "Në Gjermani, njerëzit lejohen të thonë haptas diçka kundër qeverisë, sepse …",
 "sqa": [
-"këtu zbatohet liria e fesë.",
+"këtu vlen liria e fesë.",
 "njerëzit paguajnë taksa.",
-"njerëzit kanë të drejtën e votimit.",
-"këtu zbatohet liria e mendimit."
+"njerëzit kanë të drejtën e votës.",
+"këtu vlen liria e shprehjes."
 ]
 },
 {
-"sq": "Në Gjermani, prindërit mund të vendosin deri në moshën 14-vjeçare të fëmijës nëse ky merr pjesë në …",
+"sq": "Në Gjermani, prindërit mund të vendosin derisa fëmija e tyre të mbushë 14 vjeç nëse ai/ajo do të marrë pjesë në shkollë në …",
 "sqa": [
 "mësimin e historisë.",
 "mësimin e fesë.",
-"mësimin e kënd shtetit.",
+"mësimin e politikës.",
 "mësimin e gjuhës."
 ]
 },
 {
-"sq": "Gjermania është shtet i drejtës. Çka nënkuptohet me këtë?",
+"sq": "Gjermania është shtet i së drejtës. Çfarë nënkuptohet me këtë?",
 "sqa": [
-"Të gjithë banorët dhe shteti duhet të përmbajnë ligjet.",
-"Shteti nuk duhet të përmbajë ligjet.",
-"Vetëm gjermanët duhet të përmbahin ligjet.",
+"Të gjithë banorët dhe shteti duhet t'i respektojnë ligjet.",
+"Shteti nuk ka nevojë t'i respektojë ligjet.",
+"Vetëm gjermanët duhet t'i zbatojnë ligjet.",
 "Gjykatat bëjnë ligjet."
 ]
 },
 {
-"sq": "Cilë e drejtë bën pjesë në të drejtat themelore në Gjermani?",
+"sq": "Cila e drejtë bën pjesë në të drejtat themelore në Gjermani?",
 "sqa": [
-"Pronësia e armëve",
-"E drejta e grusht",
-"Liria e mendimit",
-"Drejtësia me dorën e vet"
+"Mbajtja e armëve",
+"E drejta e grushtit",
+"Liria e shprehjes",
+"Vetëgjyqësia"
 ]
 },
 {
-"sq": "Zgjedhjet në Gjermani janë të lira. Çka nënkuptohet me këtë?",
+"sq": "Zgjedhjet në Gjermani janë të lira. Çfarë do të thotë kjo?",
 "sqa": [
-"Mund të pranohet para nëse vota për një kandidat/kandidate të caktuar.",
-"Vetëm persona që nuk janë qenë në burgim mund të votojnë.",
-"Zgjedhësi nuk mund të ndikohet ose të detyrohet për një votë të caktuar dhe nuk mund të vuajë pasoja nga votimi.",
-"Të gjithë persona me të drejtë votimi duhet të votojnë."
+"Lejohet të pranohen para nëse voton për një kandidat / kandidate të caktuar.",
+"Vetëm personat që nuk kanë qenë kurrë në burg lejohen të votojnë.",
+"Votuesi nuk duhet të ndikohet apo të detyrohet të votojë në një mënyrë të caktuar dhe nuk duhet të ketë asnjë pasojë negative nga votimi.",
+"Të gjithë personat me të drejtë vote duhet të votojnë."
 ]
 },
 {
@@ -54,39 +54,39 @@
 ]
 },
 {
-"sq": "Cilë e drejtë bën pjesë në të drejtat themelore që garantohen nga kushtetuta gjermane? E drejta për …",
+"sq": "Cila e drejtë bën pjesë në të drejtat themelore që garantohen nga kushtetuta gjermane? E drejta për …",
 "sqa": [
-"lirinë e fesë dhe ndërgjegjes",
+"lirinë e besimit dhe të ndërgjegjes",
 "argëtim",
 "arsim dhe punë",
 "banesë"
 ]
 },
 {
-"sq": "Çka nuk gjendet në Ligjin Themelor të Gjermanisë?",
+"sq": "Çfarë nuk shkruhet në Ligjin Themelor të Gjermanisë?",
 "sqa": [
-"Dinjiteti i njerëzimit është i pandenjestshëm.",
+"Dinjiteti i njeriut është i paprekshëm.",
 "Të gjithë duhet të kenë sasi të barabartë parash.",
-"Çdo njeri ka të drejtën e shprehjes së mendimit të vet.",
+"Çdo njeri ka të drejtë të thotë mendimin e vet.",
 "Të gjithë janë të barabartë përpara ligjit."
 ]
 },
 {
-"sq": "Cilë e drejtë themelore zbatohet në Gjermani vetëm për të huajt? E drejta e …",
+"sq": "Cila e drejtë themelore vlen në Gjermani vetëm për të huajt? E drejta për …",
 "sqa": [
-"mbrojtjes së familjes",
-"dinjitetit të njerëzimit",
-"azilut",
-"lirisë së mendimit"
+"mbrojtjen e familjes",
+"dinjitetin e njeriut",
+"azil",
+"lirinë e shprehjes"
 ]
 },
 {
-"sq": "Çka është në përputhje me Ligjin Themelor gjerman?",
+"sq": "Çfarë është në përputhje me Ligjin Themelor gjerman?",
 "sqa": [
-"ndëshkimi me rremze",
+"ndëshkimi fizik",
 "tortura",
-"dënia me vdekje",
-"dënia me gjendje"
+"dënimi me vdekje",
+"dënimi me gjobë"
 ]
 },
 {
@@ -94,93 +94,93 @@
 "sqa": [
 "Ligji Themelor",
 "Kushtetuta Federale",
-"Kodeksi i Ligjeve",
-"Kontrata Kushtetuese"
+"Kodi Ligjor",
+"Traktati Kushtetues"
 ]
 },
 {
-"sq": "Një partei në Parlamentin Gjerman dëshiron të marrë shfuqizimin e lirisë së shtypit. A është kjo e mundur?",
+"sq": "Një parti në Bundestagun Gjerman dëshiron të shfuqizojë lirinë e shtypit. A është kjo e mundur?",
 "sqa": [
-"Po, nëse më shumë se gjysma e deputetëve në Parlament e mbështesin.",
-"Po, por duhet që dy të tretat e deputetëve në Parlament ta mbështesin.",
-"Jo, sepse liria e shtypit është e drejtë themelore. Nuk mund të shfuqizohet.",
-"Jo, sepse vetëm Këshilli Federal mund ta shfuqizojë lirinë e shtypit."
+"Po, nëse më shumë se gjysma e deputetëve në Bundestag janë pro.",
+"Po, por duhet që dy të tretat e deputetëve në Bundestag të jenë pro.",
+"Jo, sepse liria e shtypit është e drejtë themelore. Ajo nuk mund të shfuqizohet.",
+"Jo, sepse vetëm Bundesrati (Këshilli Federal) mund ta shfuqizojë lirinë e shtypit."
 ]
 },
 {
-"sq": "Në Parlament, koncepti 'Opozita' nënkupton …",
+"sq": "Në Parlament, termi 'Opozitë' nënkupton …",
 "sqa": [
 "partitë qeverisëse.",
-"frakcionin me më shumë deputetë.",
+"grupin parlamentar me më shumë deputetë.",
 "të gjitha partitë që arritën pragun 5% në zgjedhjet e fundit.",
 "të gjithë deputetët që nuk i përkasin partisë/partive qeverisëse."
 ]
 },
 {
-"sq": "Liria e mendimit në Gjermani nënkupton se unë …",
+"sq": "Liria e shprehjes në Gjermani nënkupton se unë …",
 "sqa": [
-"mund të fyej kalimtarët në rrugë.",
+"lejohem të fyej kalimtarët në rrugë.",
 "mund të shpreh mendimin tim në internet.",
-"mund të mbaj në publik simbole nazi, Hamas ose Shtetit Islamik.",
-"mund të shpreh mendimin tim vetëm nëse nuk kundërshtoj qeverisjen."
+"lejohem të mbaj në publik simbole naziste, të Hamasit apo të Shtetit Islamik.",
+"lejohem të shpreh mendimin tim vetëm për sa kohë që nuk kundërshtoj qeverinë."
 ]
 },
 {
-"sq": "Çka e ndalon Ligji Themelor gjerman?",
+"sq": "Çfarë ndalon Ligji Themelor gjerman?",
 "sqa": [
-"Shërbimi ushtarak",
+"Shërbimin ushtarak",
 "Punën e detyruar",
-"Lirinë e zgjedhjes së profesionit",
-"Punën në jashtëzemi"
+"Zgjedhjen e lirë të profesionit",
+"Punën jashtë vendit"
 ]
 },
 {
-"sq": "Kur kufizohet liria e mendimit në Gjermani?",
+"sq": "Kur kufizohet liria e shprehjes në Gjermani?",
 "sqa": [
-"kur shpërndahen në publik pretendime të rreme rreth personave të caktuar",
-"kur shprehen mendime rreth qeverisjes federale",
-"kur diskutohet mbi religjionet",
-"kur kritikon shtetin"
+"gjatë shpërndarjes në publik të pretendimeve të rreme rreth personave të caktuar",
+"gjatë shprehjes së mendimeve rreth qeverisë federale",
+"gjatë diskutimeve mbi fetë",
+"gjatë kritikës ndaj shtetit"
 ]
 },
 {
 "sq": "Ligjet gjermane ndalojnë …",
 "sqa": [
-"Lirinë e mendimit të banorëve.",
+"Lirinë e shprehjes të banorëve.",
 "Peticionet e qytetarëve.",
-"Lirinë e mbledhjes të banorëve.",
-"Diskriminimin e qytetarëve nga shteti."
+"Lirinë e tubimit të banorëve.",
+"Trajtimin e pabarabartë të qytetarëve nga shteti."
 ]
 },
 {
-"sq": "Cilë e drejtë themelore garantohet në Artikullin 1 të Ligjit Themelor të Republikës Federale të Gjermanisë?",
+"sq": "Cila e drejtë themelore garantohet në Nenin 1 të Ligjit Themelor të Republikës Federale të Gjermanisë?",
 "sqa": [
-"paprekshmëria e dinjitetit të njerëzimit",
-"e drejta e jetës",
-"Liria e fesë",
-"Liria e mendimit"
+"paprekshmëria e dinjitetit të njeriut",
+"e drejta për jetë",
+"Liria e besimit",
+"Liria e shprehjes"
 ]
 },
 {
-"sq": "Çka kuptohet me të drejtën e 'lëvizjes të lirë' në Gjermani?",
+"sq": "Çfarë kuptohet me të drejtën e 'lirisë së lëvizjes' (Freizügigkeit) në Gjermani?",
 "sqa": [
-"Mund të zgjedhësh vetë vendin ku të banon.",
-"Mund të ndryshosh profesionin.",
-"Mund të vendosesh për një tjetër fe.",
-"Mund të qëndro në publik veshur me veshje të lehta."
+"Mund të zgjidhet vetë vendbanimi.",
+"Mund të ndryshohet profesioni.",
+"Mund të zgjidhet një fe tjetër.",
+"Mund të lëvizet në publik vetëm me veshje të lehta."
 ]
 },
 {
-"sq": "Një partei në Gjermani ndjek qëllimin të themelojë një diktaturë. Ajo është atëherë …",
+"sq": "Një parti në Gjermani ndjek qëllimin të vendosë një diktaturë. Ajo është atëherë …",
 "sqa": [
 "tolerante.",
-"e orientuar në shtetin e drejtës.",
-"që respekton ligjet.",
-"antikonstitucionale."
+"e orientuar drejt shtetit të së drejtës.",
+"që respekton ligjin.",
+"antikushtetuese."
 ]
 },
 {
-"sq": "Cila është shenja e Republikës Federale të Gjermanisë?",
+"sq": "Cila është stema e Republikës Federale të Gjermanisë?",
 "sqa": [
 "Figura 1",
 "Figura 2",
@@ -191,23 +191,23 @@
 {
 "sq": "Çfarë forme shteti ka Gjermania?",
 "sqa": [
-"Monarkia",
-"Diktatura",
-"Republika",
-"Principata"
+"Monarki",
+"Diktaturë",
+"Republikë",
+"Principatë"
 ]
 },
 {
-"sq": "Në Gjermani, shumica e personave të punësuar janë …",
+"sq": "Në Gjermani, shumica e të punësuarve janë …",
 "sqa": [
-"të punësuar në ndërmarrje të vogla familjare.",
-"të angazhuar vullnetarisht për një land.",
-"të punësuar si të pavarur me kompani të tyre.",
-"të punësuar në një firmë ose institucion."
+"të punësuar në kompani të vogla familjare.",
+"të angazhuar vullnetarisht për një land federal.",
+"të vetëpunësuar me një firmë të tyre.",
+"të punësuar në një kompani ose institucion shtetëror."
 ]
 },
 {
-"sq": "Sa land federate ka Republika Federale e Gjermanisë?",
+"sq": "Sa lande federale ka Republika Federale e Gjermanisë?",
 "sqa": [
 "14",
 "15",
@@ -216,12 +216,21 @@
 ]
 },
 {
-"sq": "Cila nuk është land federale e Republikës Federale të Gjermanisë?",
+"sq": "Cili nuk është land federal i Republikës Federale të Gjermanisë?",
 "sqa": [
-"Elzasi-Lorena",
-"Renania e Veriut-Westfalia",
-"Mecklenburg-Pomerania",
-"Sacsonia-Anhalt"
+"Elzas-Lotaringia",
+"Nordrajn-Vestfalia",
+"Meklenburg-Pomerania Perëndimore",
+"Saksoni-Anhalt"
+]
+},
+{
+"sq": "Gjermania është …",
+"sqa": [
+"një republikë komuniste.",
+"një shtet federal demokratik dhe social.",
+"një monarki kapitaliste dhe sociale.",
+"një shtet federal social dhe socialist."
 ]
 },
 {
@@ -230,123 +239,114 @@
 "një shtet socialist.",
 "një shtet federal.",
 "një diktaturë.",
-"një monarkia."
+"një monarki."
 ]
 },
 {
-"sq": "Gjermania është …",
-"sqa": [
-"një shtet socialist",
-"një shtet federal",
-"një diktaturë",
-"një monarkhi"
-]
-},
-{
-"sq": "Kush zgjedh deputetët në Bundestag në Gjermani?",
+"sq": "Kush i zgjedh deputetët e Bundestagut në Gjermani?",
 "sqa": [
 "ushtria",
 "ekonomia",
-"populla me të drejtën e votës",
+"populli me të drejtë vote",
 "administrata"
 ]
 },
 {
-"sq": "Cili kafshë është shpenda e Republikës Federale të Gjermanisë?",
+"sq": "Cila kafshë është simboli i stemës së Republikës Federale të Gjermanisë?",
 "sqa": [
-"Lioni",
+"Luani",
 "Shqiponja",
 "Ariu",
 "Kali"
 ]
 },
 {
-"sq": "Cili nuk është karakteristikë e demokracisë sonë?",
+"sq": "Cila nuk është karakteristikë e demokracisë sonë?",
 "sqa": [
 "zgjedhjet e rregullta",
-"cenzura e shtypit",
+"censura e shtypit",
 "liria e shprehjes",
-"parti të ndryshme"
+"partitë e ndryshme"
 ]
 },
 {
 "sq": "Bashkëpunimi i partive për formimin e një qeverie në Gjermani quhet …",
 "sqa": [
-"Unitet",
-"Koalicion",
-"Ministri",
-"Fraksion"
+"Unitet.",
+"Koalicion.",
+"Ministri.",
+"Grup parlamentar."
 ]
 },
 {
-"sq": "Cili nuk është pushtet shtetëror në Gjermani?",
+"sq": "Çfarë nuk është pushtet shtetëror në Gjermani?",
 "sqa": [
-"Ligjëdhënia",
+"Ligjvënia",
 "Qeveria",
 "Shtypi",
-"Gjyqësoria"
+"Gjyqësori"
 ]
 },
 {
 "sq": "Cili pohim është i saktë? Në Gjermani …",
 "sqa": [
-"shteti dhe komunitetete religjioze janë të ndarë nga njëri-tjetri",
-"komunitetete religjioze formojnë shtetin",
-"shteti varet nga komunitetete religjioze",
-"shteti dhe komunitetete religjioze formojnë një unitet"
+"shteti dhe komunitetet fetare janë të ndarë nga njëri-tjetri.",
+"komunitetet fetare formojnë shtetin.",
+"shteti varet nga komunitetet fetare.",
+"shteti dhe komunitetet fetare formojnë një njësi të vetme."
 ]
 },
 {
-"sq": "Cili nuk është Gjermania?",
+"sq": "Çfarë nuk është Gjermania?",
 "sqa": [
 "një demokraci",
 "një shtet i së drejtës",
-"një monarkhi",
+"një monarki",
 "një shtet social"
 ]
 },
 {
-"sq": "Me çfarë financon shteti gjerman sigurimin shoqeror?",
+"sq": "Me çfarë e financon shteti gjerman sigurimin shoqëror?",
 "sqa": [
-"tatimi i kishës",
-"kontributet shoqerore",
-"paratë e donacioneve",
-"kontributet e shoqatave"
+"taksën e kishës",
+"kontributet shoqërore",
+"donacionet",
+"kuotat e anëtarësisë së shoqatave"
 ]
 },
 {
 "sq": "Cila masë krijon siguri sociale në Gjermani?",
 "sqa": [
 "sigurimi shëndetësor",
-"sigurimi i automjeteve",
-"sigurimi i ndërtesave",
-"sigurimi i përgjegjësisë"
+"sigurimi i automjetit",
+"sigurimi i ndërtesës",
+"sigurimi i përgjegjësisë civile"
 ]
 },
 {
-"sq": "Si quhen krerët e qeverisë në shumicën e krahinave federale në Gjermani?",
+"sq": "Si quhen krerët e qeverisë në shumicën e landeve federale në Gjermani?",
 "sqa": [
 "Ministri i Parë / Ministrja e Parë",
-"Prim Ministri / Prim Ministrja",
-"Senatore / Senator",
-"Presidentja e Ministrave / Presidenti i Ministrave"
+"Kryeministri / Kryeministrja",
+"Senatori / Senatorja",
+"Kryetari i Ministrave / Kryetarja e Ministrave (Ministerpräsident/-in)"
 ]
 },
 {
-"sq": "Republika Federale e Gjermanisë është një …",
+"sq": "Republika Federale e Gjermanisë është një ... demokratik dhe social.",
 "sqa": [
-"bashkimi i shteteve",
-"shtet federal",
-"konfederatë shtetesh",
-"shtet qendror"
+"bashkim shtetesh.",
+"shtet federal.",
+"konfederatë shtetesh.",
+"shtet i qendërzuar."
 ]
 },
 {
-"sq": "Çfarë ka secila krahinë federale gjermane?",
+"sq": "Çfarë ka secili land federal gjerman?",
 "sqa": [
-"ministrin e vet të Jashtme",
+"ministrin/ministren e vet të jashtëm",
 "monedhën e vet",
-"ushtrinë të vet",
+"ushtrinë e vet",
 "qeverinë e vet"
 ]
 },
@@ -354,8 +354,8 @@
 "sq": "Me cilat fjalë fillon himni kombëtar gjerman?",
 "sqa": [
 "Popujt, dëgjoni sinjalet …",
-"Unitet dhe Drejtësi dhe Liria …",
-"Gëzim, shkëndim më i bukur i hyjnive …",
+"Bashkim, drejtësi dhe liri …",
+"Gëzim, shkëndijë e bukur e hyjnive …",
 "Gjermania, atdhe i bashkuar …"
 ]
 },
@@ -363,13 +363,13 @@
 "sq": "Pse në një demokraci ka më shumë se një parti?",
 "sqa": [
 "sepse në këtë mënyrë përfaqësohen mendimet e ndryshme të qytetarëve",
-"për të kufizuar korrupsionin në politikë",
-"për të parandaluar demonstrata politike",
+"për të kufizuar korrupsionin/ryshfetin në politikë",
+"për të parandaluar demonstratat politike",
 "për të nxitur konkurrencën ekonomike"
 ]
 },
 {
-"sq": "Kush vendos për një ligj të ri në Gjermani?",
+"sq": "Kush e miraton një ligj të ri në Gjermani?",
 "sqa": [
 "qeveria",
 "parlamenti",
@@ -380,62 +380,62 @@
 {
 "sq": "Kur mund të ndalohet një parti në Gjermani?",
 "sqa": [
-"nëse fushata elektorale e saj është shumë e shtrenjtë",
-"nëse lufton kundër Kushtetutës",
-"nëse bën kritikë ndaj shefit të shtetit",
+"nëse fushata e saj zgjedhore është shumë e shtrenjtë",
+"nëse ajo lufton kundër Kushtetutës",
+"nëse bën kritikë ndaj kreut të shtetit",
 "nëse programi i saj propozon një drejtim të ri"
 ]
 },
 {
 "sq": "Kë nuk mund të zgjedhim drejtpërdrejt si qytetarë në Gjermani?",
 "sqa": [
-"Deputetë të Parlamentit të BE-së",
-"Presidentin / Presidentin Federal",
-"Deputetë të Parlamentit të Krahinës",
-"Deputetë të Bundestag-ut"
+"Deputetët e Parlamentit të BE-së",
+"Presidentin Federal / Presidenten Federale",
+"Deputetët e parlamentit të landit",
+"Deputetët e Bundestagut"
 ]
 },
 {
-"sq": "Në cilën sigurimin e përket sigurimi i kujdesit?",
+"sq": "Cilit sigurim i përket sigurimi i kujdesit?",
 "sqa": [
-"sigurimi shoqeror",
-"sigurimi i aksidenteve",
-"sigurimi i pasurive të shtëpisë",
-"sigurimi i përgjegjësisë dhe i zjarrit"
+"sigurimit shoqëror",
+"sigurimit të aksidenteve",
+"sigurimit të pasurive të shtëpisë",
+"sigurimit të përgjegjësisë civile dhe të zjarrit"
 ]
 },
 {
-"sq": "Shteti gjerman ka shumë detyra. Cila detyrë përfshihet në këtë?",
+"sq": "Shteti gjerman ka shumë detyra. Cila detyrë bën pjesë në to?",
 "sqa": [
-"Ai ndërton rrugë dhe shkolla",
-"Ai shet ushqim dhe veshje",
-"Ai furnizon të gjithë banorët me gazeta falas",
-"Ai prodhon automobila dhe autobusë"
+"Ai ndërton rrugë dhe shkolla.",
+"Ai shet ushqime dhe veshje.",
+"Ai furnizon të gjithë banorët me gazeta falas.",
+"Ai prodhon automjete dhe autobusë."
 ]
 },
 {
-"sq": "Shteti gjerman ka shumë detyra. Cila detyrë nuk përfshihet në këtë?",
+"sq": "Shteti gjerman ka shumë detyra. Cila detyrë nuk bën pjesë në to?",
 "sqa": [
-"Ai paguan udhëtime pushimi për të gjithë qytetarët",
-"Ai paguan ndihmë për fëmijë",
-"Ai mbështet muzeumet",
-"Ai promovon atletat"
+"Ai paguan udhëtime pushimi për të gjithë shtetasit.",
+"Ai paguan shtesat e fëmijëve.",
+"Ai mbështet muzetë.",
+"Ai mbështet sportistët."
 ]
 },
 {
-"sq": "Cili organ nuk përfshihet në organet kushtetuese të Gjermanisë?",
+"sq": "Cili organ nuk bën pjesë në organet kushtetuese të Gjermanisë?",
 "sqa": [
-"Këshilli Federal",
-"Presidenti / Presidentja Federal",
-"Asambleja e Qytetarëve",
+"Bundesrati (Këshilli Federal)",
+"Presidenti Federal / Presidentja Federale",
+"Asambleja e qytetarëve",
 "Qeveria"
 ]
 },
 {
-"sq": "Kush përcakton politikën arsimore në Gjermani?",
+"sq": "Kush e përcakton politikën arsimore në Gjermani?",
 "sqa": [
 "Mësuesit dhe mësueset",
-"Krahinat Federale",
+"Landet federale",
 "Ministria e Familjes",
 "Universitetet"
 ]
@@ -443,43 +443,43 @@
 {
 "sq": "Forma e ekonomisë në Gjermani quhet …",
 "sqa": [
-"ekonomi qendrore e lirë",
-"ekonomi sociale të tregut",
-"ekonomi qendrore e drejtuar",
-"ekonomia e planifikuar"
+"ekonomi e lirë e qendërzuar.",
+"ekonomi sociale e tregut.",
+"ekonomi e drejtuar e qendërzuar.",
+"ekonomi e planifikuar."
 ]
 },
 {
-"sq": "Nuk bie në paj me një shtet të drejtës demokratik që …",
+"sq": "Nuk i përket një shteti demokratik të së drejtës që …",
 "sqa": [
 "njerëzit mund të shprehin kritika ndaj qeverisë",
-"qytetarët kanë të drejtën të demonstrojnë paqësisht",
-"njerëzit të arrestohen nga një polici private pa arsye",
+"qytetarët lejohen të demonstrojnë paqësisht",
+"njerëzit të arrestohen pa arsye nga një polici private",
 "dikush të arrestohet sepse ka kryer një krim"
 ]
 },
 {
-"sq": "Çfarë do të thotë 'sovranitet popullor'? Tërë pushteti shtetëror vjen nga …",
+"sq": "Çfarë do të thotë 'sovranitet popullor'? Tërë pushteti shtetëror buron nga …",
 "sqa": [
-"popull",
-"Bundestag",
-"mbreti prusian",
-"Gjykata Kushtetuese Federal"
+"populli.",
+"Bundestagu.",
+"mbreti prusian.",
+"Gjykata Kushtetuese Federale."
 ]
 },
 {
-"sq": "Çfarë do të thotë \"shtet i të drejtës\" në Gjermani?",
+"sq": "Çfarë do të thotë 'shtet i së drejtës' në Gjermani?",
 "sqa": [
 "Shteti ka të drejtë.",
-"Ekzistojnë vetëm partitë e djathtës.",
-"Qytetarët dhe qytetaret vendosin për ligjet.",
-"Shteti duhet të respektojë ligjet."
+"Ekzistojnë vetëm partitë e djathta.",
+"Qytetarët vendosin për ligjet.",
+"Shteti duhet t'i zbatojë ligjet."
 ]
 },
 {
-"sq": "Çfarë nuk është një pushtet i shtetit në Gjermani?",
+"sq": "Çfarë nuk është pushtet shtetëror në Gjermani?",
 "sqa": [
-"Legjislativa",
+"Legjislativi",
 "Gjyqësori",
 "Ekzekutivi",
 "Direktiva"
@@ -488,71 +488,71 @@
 {
 "sq": "Çfarë tregon kjo figurë?",
 "sqa": [
-"Selinë e Bundestagut në Berlin",
+"selinë e Bundestagut në Berlin",
 "Gjykatën Kushtetuese Federale në Karlsruhe",
-"Ndërtesën e Bundesratit në Berlin",
-"Zyrën e Kancelarin Federalë në Berlin"
+"ndërtesën e Bundesratit në Berlin",
+"Zyrën e Kancelarit Federal në Berlin"
 ]
 },
 {
-"sq": "Cili drejtim i përket administratës komunale në Gjermani?",
+"sq": "Cila zyrë i përket administratës komunale në Gjermani?",
 "sqa": [
-"Drejtoria e Kishës",
-"Drejtoria e Rregullimit",
-"Drejtoria e Financave",
-"Ministerium i Punëve të Jashtme"
+"Zyra e famullisë",
+"Zyra e rendit publik",
+"Zyra tatimore",
+"Ministria e Jashtme"
 ]
 },
 {
-"sq": "Kush zgjidhet zakonisht për Presidente / President të Bundestagut Gjerman?",
+"sq": "Kush zgjidhet zakonisht si Kryetar / Kryetare e Bundestagut Gjerman?",
 "sqa": [
-"Përfaqësuesi / përfaqësuesja më i vjetër në Parlament",
-"Presidenti i Ministrave / Presidentja e Ministrave të krahinës më të madhe",
-"Një ish Kancelare / ish Kancelar Federalë",
-"Një përfaqësues / përfaqësuesja nga fraksioni më i fuqishëm"
+"deputeti / deputetja më e vjetër në parlament",
+"kryeministri / kryeministrja e landit më të madh",
+"një ish-Kancelar Federal / ish-Kancelare Federale",
+"një deputet / deputete e grupit parlamentar më të madh"
 ]
 },
 {
-"sq": "Kush emëron në Gjermani Ministra / Ministra të Qeverisë Federale?",
+"sq": "Kush i emëron ministrat / ministret e Qeverisë Federale në Gjermani?",
 "sqa": [
 "Presidenti / Presidentja e Gjykatës Kushtetuese Federale",
-"Presidente Federale / President Federal",
-"Presidentja e Bundesratit / Presidenti i Bundesratit",
-"Presidentja e Bundestagut / Presidenti i Bundestagut"
+"Presidenti Federal / Presidentja Federale",
+"Kryetarja e Bundesratit / Kryetari i Bundesratit",
+"Kryetarja e Bundestagut / Kryetari i Bundestagut"
 ]
 },
 {
 "sq": "Para sa vitesh ka ekzistuar për herë të parë një komunitet hebraik në territorin e Gjermanisë së sotme?",
 "sqa": [
-"Para afërsisht 300 vitesh",
-"Para afërsisht 700 vitesh",
-"Para afërsisht 1150 vitesh",
-"Para afërsisht 1700 vitesh"
+"para afërsisht 300 vitesh",
+"para afërsisht 700 vitesh",
+"para afërsisht 1150 vitesh",
+"para afërsisht 1700 vitesh"
 ]
 },
 {
 "sq": "Në Gjermani, Bundestagu dhe Bundesrati i përkasin …",
 "sqa": [
 "Ekzekutivit.",
-"Legjislaturës.",
+"Legjislativit.",
 "Direktivës.",
 "Gjyqësorit."
 ]
 },
 {
-"sq": "Çfarë do të thotë \"sovranitet popullor\"?",
+"sq": "Çfarë do të thotë 'sovranitet popullor'?",
 "sqa": [
-"Mbretëresha / Mbretit governi mbi popullin.",
+"Mbretëresha / Mbreti sundon mbi popullin.",
 "Gjykata Kushtetuese Federale qëndron mbi Kushtetutën.",
-"Shoqatat e interesit ushtrojnë sovranitetin bashkë me Qeverinë.",
-"Pushteti i shtetit buron nga populli."
+"Shoqatat e interesit ushtrojnë sovranitetin së bashku me qeverinë.",
+"Tërë pushteti shtetëror buron nga populli."
 ]
 },
 {
-"sq": "Kur zgjidhet Parlamenti i një krahinë gjermane, quhet …",
+"sq": "Kur zgjidhet parlamenti i një landi gjerman, kjo quhet …",
 "sqa": [
 "Zgjedhje komunale",
-"Zgjedhje për Parlament të Krahinës",
+"Zgjedhje për parlamentin e landit",
 "Zgjedhje për Parlamentin Evropian",
 "Zgjedhje për Bundestag"
 ]
@@ -560,32 +560,32 @@
 {
 "sq": "Çfarë nuk i përket Ekzekutivit në Gjermani?",
 "sqa": [
-"Policia",
-"Gjykatat",
-"Drejtoria e Financave",
-"Ministritë"
+"policia",
+"gjykatat",
+"zyra tatimore (Finanzamt)",
+"ministritë"
 ]
 },
 {
-"sq": "Republika Federale Gjermane është e ndarë sot në …",
+"sq": "Republika Federale e Gjermanisë është e ndarë sot në …",
 "sqa": [
 "katër zona okupimi.",
 "një shtet lindor dhe një shtet perëndimor.",
 "16 kantone.",
-"Federatë, Krahinat dhe Komunat."
+"Federatën, landet dhe komunat."
 ]
 },
 {
-"sq": "Nuk i përket detyrave të Bundestagut Gjerman …",
+"sq": "Nuk bën pjesë në detyrat e Bundestagut Gjerman …",
 "sqa": [
-"Të hartohen ligjet.",
-"Të kontrollohet Qeveria Federale.",
-"Të zgjidhet Kancelereja / Kancelerja Federale.",
-"Të formohet Kabineti Federal."
+"të hartojë ligje.",
+"të kontrollojë Qeverinë Federale.",
+"të zgjedhë Kancelarin Federal / Kancelaren Federale.",
+"të formojë Kabinetin Federal."
 ]
 },
 {
-"sq": "Cilat qytete kanë komunitetin hebrajk më të madh në Gjermani?",
+"sq": "Cilat qytete kanë komunitetet hebraike më të mëdha në Gjermani?",
 "sqa": [
 "Berlin dhe München",
 "Hamburg dhe Essen",
@@ -594,12 +594,12 @@
 ]
 },
 {
-"sq": "Cila është veçanërisht detyra e krahinave në Gjermani?",
+"sq": "Cila është, para së gjithash, një detyrë e landeve federale në Gjermani?",
 "sqa": [
 "Politika e mbrojtjes",
 "Politika e jashtme",
 "Politika ekonomike",
-"Politika e arsimit"
+"Politika arsimore"
 ]
 },
 {
