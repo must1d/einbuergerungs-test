@@ -2,7 +2,7 @@
 import json, base64, struct, zlib, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT  = "/Users/mdobra/Repositories/einbuergerungs-test/index.html"
+OUT  = os.path.join(HERE, "index.html")
 
 # --- map image questions (by exact German question text) to image files ---
 IMG = {
@@ -25,17 +25,10 @@ STATES = {"Baden-Württemberg","Berlin","Brandenburg","Bremen","Hamburg","Hessen
     "Mecklenburg-Vorpommern","Niedersachsen","Nordrhein-Westfalen","Rheinland-Pfalz",
     "Saarland","Sachsen","Sachsen-Anhalt","Schleswig-Holstein","Thüringen"}  # all states EXCEPT Bayern
 
-# --- load Albanian translations (part files keyed by German question text) ---
-trans = {}
-tdir = os.path.join(HERE, "translations")
-if os.path.isdir(tdir):
-    for fn in sorted(os.listdir(tdir)):
-        if not fn.endswith(".json") or fn.startswith("_"):
-            continue  # skip _source.json etc.
-        part = json.load(open(os.path.join(tdir, fn), encoding="utf-8"))
-        for k, v in part.items():
-            if v.get("sq") and len(v.get("sqa", [])) == 4:
-                trans[k] = v
+# --- load Albanian translations (index-aligned list; keyed by position, not text,
+#     because some questions share identical German text with different answers) ---
+tfile = os.path.join(HERE, "translations", "combined.json")
+combined = json.load(open(tfile, encoding="utf-8")) if os.path.exists(tfile) else []
 
 uri_cache = {}
 out = []
@@ -50,10 +43,10 @@ for q in raw:
         uri_cache.setdefault(fn, data_uri(fn))
         item["img"] = uri_cache[fn]
         img_hits += 1
-    t = trans.get(q["question"])
-    if t:
-        item["sq"] = t["sq"]
-        item["sqa"] = t["sqa"]
+    i = len(out)  # position in filtered list == index in combined.json
+    if i < len(combined) and combined[i] and combined[i].get("sq") and len(combined[i].get("sqa", [])) == 4:
+        item["sq"] = combined[i]["sq"]
+        item["sqa"] = combined[i]["sqa"]
         sq_hits += 1
     out.append(item)
 
@@ -62,6 +55,11 @@ bayern  = sum(1 for q in out if q["cat"] == "Bayern")
 assert federal == 300, f"expected 300 federal, got {federal}"
 assert bayern == 10, f"expected 10 Bayern, got {bayern}"
 assert img_hits == len(IMG), f"image mapping mismatch: {img_hits} vs {len(IMG)}"
+if combined:
+    assert len(combined) == len(out), f"translation misalignment: {len(combined)} vs {len(out)} questions"
+    for it in out:
+        if "sqa" in it:
+            assert len(it["sqa"]) == len(it["a"]), f"answer count mismatch: {it['q'][:40]}"
 
 # --- tiny solid-green 180x180 PNG app icon (no deps) ---
 def solid_png(w, h, rgb):
