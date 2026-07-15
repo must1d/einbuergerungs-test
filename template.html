@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Einbürgerungstest Bayern</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Einbürgerung">
+<meta name="theme-color" content="#0b6b3a">
+<link rel="apple-touch-icon" href="__ICON__">
+<style>
+  :root{
+    --bg:#f4f4f2; --card:#fff; --text:#111; --muted:#666; --line:#ddd;
+    --brand:#0b6b3a; --brand-d:#095c31; --ok:#1a8a3c; --okbg:#e3f6e8;
+    --bad:#c62828; --badbg:#fdeaea; --accent:#083c8c;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#111; --card:#1c1c1e; --text:#f2f2f2; --muted:#9a9a9a; --line:#333;
+      --brand:#12a35a; --brand-d:#0e8a4c; --ok:#37c463; --okbg:#123a1e;
+      --bad:#ff6b6b; --badbg:#3a1414; --accent:#5b8dff;}
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html,body{margin:0}
+  body{background:var(--bg); color:var(--text);
+    font:18px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);}
+  .wrap{max-width:640px; margin:0 auto; padding:16px 16px 40px}
+  h1{font-size:26px; margin:8px 0 4px; text-align:center}
+  .sub{text-align:center; color:var(--muted); margin:0 0 20px}
+  button{font-family:inherit; font-size:inherit; cursor:pointer}
+  .menu-btn{display:block; width:100%; padding:20px; margin:12px 0; border:none; border-radius:16px;
+    background:var(--card); color:var(--text); text-align:left; box-shadow:0 1px 3px rgba(0,0,0,.12);
+    font-size:20px; font-weight:600}
+  .menu-btn small{display:block; font-weight:400; font-size:15px; color:var(--muted); margin-top:4px}
+  .menu-btn.primary{background:var(--brand); color:#fff}
+  .menu-btn.primary small{color:#dff0e6}
+  .badge{float:right; background:var(--bad); color:#fff; border-radius:20px; padding:2px 12px; font-size:15px}
+  .topbar{display:flex; align-items:center; gap:12px; margin-bottom:14px}
+  .back{background:none; border:none; color:var(--brand); font-size:17px; padding:6px 0}
+  .progress{flex:1; text-align:center; color:var(--muted); font-size:15px}
+  .bar{height:6px; background:var(--line); border-radius:3px; overflow:hidden; margin-bottom:16px}
+  .bar>i{display:block; height:100%; background:var(--brand); width:0; transition:width .2s}
+  .cat{color:var(--accent); font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:.03em; margin-bottom:6px}
+  .q{font-size:21px; font-weight:600; margin:0 0 16px}
+  .qimg{width:100%; max-width:420px; display:block; margin:0 auto 16px; border-radius:12px; background:#fff}
+  .ans{display:block; width:100%; text-align:left; padding:16px; margin:10px 0; border:2px solid var(--line);
+    border-radius:14px; background:var(--card); color:var(--text); font-size:18px}
+  .ans:active{transform:scale(.99)}
+  .ans .k{display:inline-block; min-width:26px; font-weight:700; color:var(--muted)}
+  .ans.correct{border-color:var(--ok); background:var(--okbg)}
+  .ans.correct .k{color:var(--ok)}
+  .ans.wrong{border-color:var(--bad); background:var(--badbg)}
+  .ans.wrong .k{color:var(--bad)}
+  .ans[disabled]{opacity:1}
+  .next{display:block; width:100%; padding:18px; margin-top:20px; border:none; border-radius:14px;
+    background:var(--brand); color:#fff; font-size:19px; font-weight:600}
+  .next:disabled{opacity:.4}
+  .chip{display:inline-block; padding:10px 14px; margin:5px; border:2px solid var(--line); border-radius:22px;
+    background:var(--card); color:var(--text); font-size:16px}
+  .chip.all{background:var(--brand); color:#fff; border-color:var(--brand)}
+  .result-big{text-align:center; font-size:52px; font-weight:800; margin:10px 0 0}
+  .result-tag{text-align:center; font-size:24px; font-weight:700; margin:6px 0 18px}
+  .pass{color:var(--ok)} .fail{color:var(--bad)}
+  .rev-item{padding:14px; margin:10px 0; border-radius:12px; background:var(--card); border-left:5px solid var(--bad)}
+  .rev-item .rq{font-weight:600; margin-bottom:6px}
+  .rev-item .ra{color:var(--ok); font-size:16px}
+  .center{text-align:center; color:var(--muted); margin-top:40px}
+  .shqip-btn{display:block; width:100%; padding:13px; margin-top:14px; border:2px dashed var(--accent);
+    border-radius:12px; background:transparent; color:var(--accent); font-size:16px; font-weight:600}
+  .alb{margin-top:14px; padding:14px; border-radius:12px; background:var(--card); border-left:5px solid var(--accent)}
+  .alb .lbl{font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); font-weight:700; margin-bottom:6px}
+  .alb .aq{font-weight:600; margin-bottom:8px}
+  .alb ol{margin:0; padding-left:22px}
+  .alb li{margin:4px 0}
+  .alb li.c{color:var(--ok); font-weight:700}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<script>
+const QUESTIONS = __QUESTIONS__;
+const BAYERN = "Bayern";
+const WKEY = "et_wrong_v1";
+
+const $ = h => { const d=document.createElement('div'); d.innerHTML=h.trim(); return d.firstChild; };
+const app = document.getElementById('app');
+function render(node){ app.innerHTML=''; app.appendChild(node); window.scrollTo(0,0); }
+const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0; [a[i],a[j]]=[a[j],a[i]];} return a; };
+
+// Albanian review helpers — shown only when the solution is revealed
+function albBlock(q){
+  const items = q.sqa.map((t,i)=>`<li class="${i===q.c?'c':''}">${t}${i===q.c?' ✓':''}</li>`).join('');
+  return $(`<div class="alb"><div class="lbl">Shqip</div><div class="aq">${q.sq}</div><ol>${items}</ol></div>`);
+}
+function addShqip(container, q, before){
+  if(!q.sq || !q.sqa) return;
+  const btn = $(`<button class="shqip-btn">🇦🇱 Shqip · shfaq përkthimin</button>`);
+  btn.onclick = ()=> btn.replaceWith(albBlock(q));
+  if(before) container.insertBefore(btn, before); else container.appendChild(btn);
+}
+
+// wrong-answer store: set of question indices
+function getWrong(){ try{return new Set(JSON.parse(localStorage.getItem(WKEY)||'[]'));}catch(e){return new Set();} }
+function saveWrong(s){ localStorage.setItem(WKEY, JSON.stringify([...s])); }
+function markWrong(i){ const s=getWrong(); s.add(i); saveWrong(s); }
+function clearWrong(i){ const s=getWrong(); s.delete(i); saveWrong(s); }
+
+const federalIdx = QUESTIONS.map((q,i)=>i).filter(i=>QUESTIONS[i].cat!==BAYERN);
+const bayernIdx  = QUESTIONS.map((q,i)=>i).filter(i=>QUESTIONS[i].cat===BAYERN);
+const categories = [...new Set(QUESTIONS.map(q=>q.cat))];
+
+// ---------- Home ----------
+function home(){
+  const n = getWrong().size;
+  const el = $(`<div>
+    <h1>Einbürgerungstest</h1>
+    <p class="sub">Bayern · 310 amtliche Fragen</p>
+    <button class="menu-btn primary" id="m-uben">Üben<small>Nach Thema, mit sofortiger Lösung</small></button>
+    <button class="menu-btn" id="m-pruef">Prüfung simulieren<small>33 Fragen · bestanden ab 17 richtig</small></button>
+    <button class="menu-btn" id="m-karten">Karteikarten<small>Frage ansehen, Antwort aufdecken</small></button>
+    <button class="menu-btn" id="m-fehler">Fehler wiederholen ${n?`<span class="badge">${n}</span>`:''}<small>Nur falsch beantwortete Fragen</small></button>
+  </div>`);
+  el.querySelector('#m-uben').onclick = practiceMenu;
+  el.querySelector('#m-pruef').onclick = startExam;
+  el.querySelector('#m-karten').onclick = ()=>startFlash(shuffle(QUESTIONS.map((q,i)=>i)));
+  el.querySelector('#m-fehler').onclick = startWrong;
+  render(el);
+}
+
+// ---------- Practice category picker ----------
+function practiceMenu(){
+  const el = $(`<div>
+    <div class="topbar"><button class="back">‹ Zurück</button><div class="progress">Thema wählen</div></div>
+    <div id="chips"></div>
+  </div>`);
+  el.querySelector('.back').onclick = home;
+  const c = el.querySelector('#chips');
+  const all = $(`<button class="chip all">Alle Themen (${QUESTIONS.length})</button>`);
+  all.onclick = ()=>startQuiz(shuffle(QUESTIONS.map((q,i)=>i)), {feedback:true, title:'Alle Themen'});
+  c.appendChild(all);
+  categories.forEach(cat=>{
+    const idx = QUESTIONS.map((q,i)=>i).filter(i=>QUESTIONS[i].cat===cat);
+    const b = $(`<button class="chip">${cat} (${idx.length})</button>`);
+    b.onclick = ()=>startQuiz(shuffle(idx), {feedback:true, title:cat});
+    c.appendChild(b);
+  });
+  render(el);
+}
+
+// ---------- Quiz engine (practice / exam / wrong) ----------
+function startQuiz(ids, opt){
+  let pos=0, answers=new Array(ids.length).fill(null);
+  const feedback = opt.feedback, isExam = !!opt.exam;
+
+  function step(){
+    const qi = ids[pos], q = QUESTIONS[qi];
+    const el = $(`<div>
+      <div class="topbar">
+        <button class="back">‹ ${isExam?'Abbrechen':'Zurück'}</button>
+        <div class="progress">${pos+1} / ${ids.length}${opt.title?' · '+opt.title:''}</div>
+      </div>
+      <div class="bar"><i style="width:${(pos)/ids.length*100}%"></i></div>
+      <div class="cat">${q.cat}</div>
+      ${q.img?`<img class="qimg" src="${q.img}" alt="">`:''}
+      <p class="q">${q.q}</p>
+      <div id="ans"></div>
+      <button class="next" disabled>${pos+1<ids.length?'Weiter':'Fertig'}</button>
+    </div>`);
+    el.querySelector('.back').onclick = ()=> isExam? (confirm('Prüfung abbrechen?')&&home()) : home();
+    const box = el.querySelector('#ans');
+    const nextBtn = el.querySelector('.next');
+    const chosen = answers[pos];
+
+    q.a.forEach((txt,ai)=>{
+      const b = $(`<button class="ans"><span class="k">${ai+1}</span> ${txt}</button>`);
+      b.onclick = ()=>{
+        if(answers[pos]!==null) return;
+        answers[pos]=ai;
+        if(ai!==q.c) markWrong(qi); else clearWrong(qi);
+        [...box.children].forEach(c=>c.disabled=true);
+        if(feedback){
+          box.children[q.c].classList.add('correct');
+          if(ai!==q.c){ b.classList.add('wrong'); addShqip(el, q, nextBtn); }
+        } else {
+          b.style.borderColor='var(--brand)'; b.style.background='var(--card)';
+          b.querySelector('.k').style.color='var(--brand)';
+        }
+        nextBtn.disabled=false;
+      };
+      box.appendChild(b);
+    });
+    // restore if revisiting
+    if(chosen!==null){
+      [...box.children].forEach(c=>c.disabled=true);
+      if(feedback){ box.children[q.c].classList.add('correct'); if(chosen!==q.c){ box.children[chosen].classList.add('wrong'); addShqip(el, q, nextBtn); } }
+      else box.children[chosen].style.borderColor='var(--brand)';
+      nextBtn.disabled=false;
+    }
+    nextBtn.onclick = ()=>{ if(pos+1<ids.length){pos++; step();} else finish(); };
+    render(el);
+  }
+
+  function finish(){
+    if(isExam){ examResult(ids, answers); }
+    else { summary(ids, answers); }
+  }
+  step();
+}
+
+function summary(ids, answers){
+  let right=0; ids.forEach((qi,i)=>{ if(answers[i]===QUESTIONS[qi].c) right++; });
+  const el=$(`<div>
+    <h1>Fertig</h1>
+    <p class="result-big">${right} / ${ids.length}</p>
+    <p class="sub">richtig beantwortet</p>
+    <button class="next" id="again">Zur Startseite</button>
+  </div>`);
+  el.querySelector('#again').onclick=home;
+  render(el);
+}
+
+// ---------- Exam ----------
+function startExam(){
+  const ids = shuffle(federalIdx).slice(0,30).concat(shuffle(bayernIdx).slice(0,3));
+  startQuiz(shuffle(ids), {feedback:false, exam:true, title:'Prüfung'});
+}
+function examResult(ids, answers){
+  let right=0; const wrong=[];
+  ids.forEach((qi,i)=>{ if(answers[i]===QUESTIONS[qi].c) right++; else wrong.push(qi); });
+  const passed = right>=17;
+  const el=$(`<div>
+    <p class="result-big">${right} / 33</p>
+    <p class="result-tag ${passed?'pass':'fail'}">${passed?'✓ Bestanden':'✗ Nicht bestanden'}</p>
+    <p class="sub">Bestanden ab 17 richtigen Antworten</p>
+    <div id="rev"></div>
+    <button class="next" id="home">Zur Startseite</button>
+  </div>`);
+  const rev=el.querySelector('#rev');
+  if(wrong.length){
+    rev.appendChild($(`<p class="cat">Falsch beantwortet (${wrong.length})</p>`));
+    wrong.forEach(qi=>{ const q=QUESTIONS[qi];
+      const item=$(`<div class="rev-item"><div class="rq">${q.q}</div><div class="ra">✓ ${q.a[q.c]}</div></div>`);
+      addShqip(item, q);
+      rev.appendChild(item);
+    });
+  }
+  el.querySelector('#home').onclick=home;
+  render(el);
+}
+
+// ---------- Flashcards ----------
+function startFlash(ids){
+  let pos=0;
+  function step(){
+    const q=QUESTIONS[ids[pos]];
+    const el=$(`<div>
+      <div class="topbar"><button class="back">‹ Zurück</button><div class="progress">${pos+1} / ${ids.length}</div></div>
+      <div class="bar"><i style="width:${pos/ids.length*100}%"></i></div>
+      <div class="cat">${q.cat}</div>
+      ${q.img?`<img class="qimg" src="${q.img}" alt="">`:''}
+      <p class="q">${q.q}</p>
+      <div id="ans"></div>
+      <button class="next" id="reveal">Antwort zeigen</button>
+    </div>`);
+    el.querySelector('.back').onclick=home;
+    const box=el.querySelector('#ans');
+    q.a.forEach((txt,ai)=> box.appendChild($(`<div class="ans" style="pointer-events:none"><span class="k">${ai+1}</span> ${txt}</div>`)));
+    const btn=el.querySelector('#reveal');
+    btn.onclick=()=>{
+      box.children[q.c].classList.add('correct');
+      addShqip(el, q, btn);
+      btn.textContent = pos+1<ids.length?'Weiter':'Fertig';
+      btn.onclick = ()=>{ if(pos+1<ids.length){pos++; step();} else home(); };
+    };
+    render(el);
+  }
+  step();
+}
+
+// ---------- Wrong review ----------
+function startWrong(){
+  const ids=[...getWrong()];
+  if(!ids.length){
+    const el=$(`<div>
+      <div class="topbar"><button class="back">‹ Zurück</button><div class="progress">Fehler</div></div>
+      <p class="center">Keine Fehler gespeichert.<br>Übe zuerst ein paar Fragen.</p>
+    </div>`);
+    el.querySelector('.back').onclick=home; render(el); return;
+  }
+  startQuiz(shuffle(ids), {feedback:true, title:'Fehler'});
+}
+
+home();
+</script>
+</body>
+</html>
