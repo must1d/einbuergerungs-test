@@ -31,6 +31,13 @@ python3 build.py
 `build.py` filtert die 310 Fragen, bettet die 6 Bild-Fragen als Data-URIs ein
 und schreibt `index.html`.
 
-## Später: albanische Übersetzung
-Vorgesehen, aber noch nicht gefüllt. Pro Frage kann ein Feld `sq` ergänzt
-werden; die UI kann es beim Ergebnis-Review einblenden (Fallback: Deutsch).
+## Albanische Übersetzung
+Alle 310 Fragen sind ins Albanische übersetzt (`translations/combined.json`,
+index-basiert). Sie erscheint **nur beim Nachschauen der Lösung** — bei falsch
+beantworteten Fragen im Üben-/Fehler-Modus, beim Aufdecken der Karteikarte und
+in der Prüfungs-Auswertung — über den Knopf „🇦🇱 Shqip". Fehlt eine Übersetzung,
+bleibt es bei Deutsch.
+
+`combined.json` ist ein Array mit 310 Einträgen `{"sq","sqa":[4]}`, ausgerichtet
+auf die Reihenfolge der gefilterten Fragen (Position = Index). `build.py` prüft
+die Ausrichtung und bettet die Übersetzungen ein.

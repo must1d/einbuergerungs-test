@@ -630,7 +630,7 @@
 ]
 },
 {
-"sq": "Ku ndodhet më shpesh Kancelereja Gjermane / Kancelerja Gjermane?",
+"sq": "Ku ndodhet më shpesh Kancelarja Gjermane / Kancelerja Gjermane?",
 "sqa": [
 "në Bonn, sepse atje ndodhet Zyrja e Kancelarit Federalë dhe Bundestagu.",
 "në Palaçin Meseberg, shtëpia e vizitorëve të Qeverisë Federale, për të pritur mysafirë të shtetit.",
@@ -639,7 +639,7 @@
 ]
 },
 {
-"sq": "Kush është Kancelereja / Kancelerja aktuale e Gjermanisë?",
+"sq": "Kush është Kancelarja / Kancelerja aktuale e Gjermanisë?",
 "sqa": [
 "Gerhard Schröder",
 "Angela Merkel",
@@ -648,7 +648,7 @@
 ]
 },
 {
-"sq": "Dy frakcionet më të mëdha në Bundestag Gjerman quhen aktualisht …",
+"sq": "Dy fraksionet më të mëdha në Bundestag Gjerman quhen aktualisht …",
 "sqa": [
 "CDU/CSU dhe AfD.",
 "Die Linke dhe Bündnis 90/Die Grünen.",
@@ -677,10 +677,10 @@
 {
 "sq": "Çfarë do të thotë shkurtesa CDU në Gjermani?",
 "sqa": [
-"Unioni Cristian Gjerman",
+"Unioni Kristian Gjerman",
 "Klubi i Sipërmarrësve Gjermanë",
-"Mbrojtja Cristiano-Gjermane e Mjedisit",
-"Unioni Cristian Social Demokrat"
+"Mbrojtja Kristian-Gjermane e Mjedisit",
+"Unioni Kristiandemokratik"
 ]
 },
 {
@@ -724,14 +724,14 @@
 "sqa": [
 "Këshilli Federale",
 "Asambleja Federale",
-"Vendi",
+"Populli",
 "Bundestagi"
 ]
 },
 {
 "sq": "Kush drejton Kabinetin Federale të Gjermanisë?",
 "sqa": [
-"Presidenti i Bundestabit",
+"Presidenti i Bundestagit",
 "Presidenti Federale",
 "Presidenti i Këshillit Federale",
 "Kancelari Federale"
@@ -740,7 +740,7 @@
 {
 "sq": "Kush zgjedh Kancelarin Federale të Gjermanisë?",
 "sqa": [
-"Vendi",
+"Populli",
 "Asambleja Federale",
 "Bundestagi",
 "Qeveria Federale"
@@ -749,18 +749,18 @@
 {
 "sq": "Cila është detyra kryesore e Presidentit Federale të Gjermanisë? Ai/Ajo…",
 "sqa": [
-"qeveriset vendin.",
-"përfaqëson vendin.",
+"qeveris vendin.",
 "harton ligjet.",
+"përfaqëson vendin.",
 "mbikëqyr zbatimin e ligjeve."
 ]
 },
 {
 "sq": "Kush përbën Këshillin Federale të Gjermanisë?",
 "sqa": [
-"deputetët e Bundestabit",
+"deputetët e Bundestagit",
 "ministrat dhe ministraja të Qeverisë Federale",
-"përfaqësuesit e qeverisjes së dhuratjeve federale",
+"përfaqësuesit e qeverive të landeve federale",
 "anëtarët e partive politike"
 ]
 },
@@ -779,7 +779,7 @@
 "Kancelari Federale",
 "Presidenti Federale",
 "Presidenti i Këshillit Federale",
-"Presidenti i Bundestabit"
+"Presidenti i Bundestagit"
 ]
 },
 {
@@ -801,11 +801,11 @@
 ]
 },
 {
-"sq": "Landjet federale të Gjermanisë marrin pjesë në ligjtarjen federale përmes…",
+"sq": "Landet federale të Gjermanisë marrin pjesë në ligjvënien federale përmes…",
 "sqa": [
 "Këshillit Federale.",
 "Asamblesë Federale.",
-"Bundestabit.",
+"Bundestagit.",
 "Qeverisës Federale."
 ]
 },
@@ -828,7 +828,7 @@
 ]
 },
 {
-"sq": "Sa më shumë 'zëra të dytë' të marrë një parti në zgjedhjet e Bundestabit, aq më…",
+"sq": "Sa më shumë 'zëra të dytë' të marrë një parti në zgjedhjet e Bundestagit, aq më…",
 "sqa": [
 "pak zëra të parë mund të ketë.",
 "më shumë kandidatë të drejtpërdrejtë të partisë hyjnë në Parlament.",
@@ -837,7 +837,7 @@
 ]
 },
 {
-"sq": "Nga cili moshë mund të marrë pjesë në zgjedhjet e Bundestabit në Gjermani?",
+"sq": "Nga cili moshë mund të marrë pjesë në zgjedhjet e Bundestagit në Gjermani?",
 "sqa": [
 "16",
 "18",
@@ -855,10 +855,10 @@
 ]
 },
 {
-"sq": "Si mund të penalizohet dikush që mohon Holokausthin?",
+"sq": "Si mund të penalizohet dikush që mohon Holokaustin?",
 "sqa": [
-"Reduktimi i përfitimeve shoqnuese",
-"Deri në 100 orë puna në interes shoqnuese",
+"Reduktimi i përfitimeve shoqërore",
+"Deri në 100 orë puna në interes shoqërore",
 "Fare, mohimi i Holokaustit lejohet",
 "Me burgim deri në pesë vjet ose me gjobë"
 ]
@@ -866,8 +866,8 @@
 {
 "sq": "Çfarë paguan dikush automatikisht në Gjermani kur është punonjës i qëndrueshëm?",
 "sqa": [
-"Sigurimi shoqnuese",
-"Ndihma shoqnuese",
+"Sigurimi shoqërore",
+"Ndihma shoqërore",
 "Ndihma për fëmijë",
 "Ndihma për banesë"
 ]
@@ -882,7 +882,7 @@
 ]
 },
 {
-"sq": "Kush paguan në Gjermani sigurimin shoqnuese?",
+"sq": "Kush paguan në Gjermani sigurimin shoqërore?",
 "sqa": [
 "Punëdhënësit dhe punëtorët",
 "Vetëm punëtorët",
@@ -891,7 +891,7 @@
 ]
 },
 {
-"sq": "Çfarë nuk përfshihet në sigurimin ligjor shoqnuese?",
+"sq": "Çfarë nuk përfshihet në sigurimin ligjor shoqërore?",
 "sqa": [
 "Sigurimi i jetës",
 "Sigurimi ligjor i pensionit",
@@ -909,7 +909,7 @@
 ]
 },
 {
-"sq": "Me çfarë mund të nderuhet dikush në Republikën Federale të Gjermanisë nëse ka bërë një përpjekje të veçantë në fushën politike, ekonomike, kulturore, shpirtërore ose shoqnuese? Me…",
+"sq": "Me çfarë mund të nderuhet dikush në Republikën Federale të Gjermanisë nëse ka bërë një përpjekje të veçantë në fushën politike, ekonomike, kulturore, shpirtërore ose shoqërore? Me…",
 "sqa": [
 "Kryqin e Meritës Federale",
 "Shqiponja Federale",
@@ -930,7 +930,7 @@
 "sq": "Një grua në Gjermani humbet punën e saj. Çfarë nuk mund të jetë arsyeja për këtë largim?",
 "sqa": [
 "Gruaja është sëmurë për një kohë të gjatë dhe është e paafte për punë.",
-"Gruaja më vonë shpesh në punë.",
+"Gruaja vinte shpesh vonë në punë.",
 "Gruaja merret me punë private gjatë orës së punës.",
 "Gruaja shtatzënon dhe shefi i saj e di këtë."
 ]
@@ -945,7 +945,7 @@
 ]
 },
 {
-"sq": "Në Gjermani, ndihmuesit zgjedhor volunatorë ndihmojnë në zgjedhje. Cila është një detyrë e ndihmuesve zgjedhor?",
+"sq": "Në Gjermani, ndihmuesit zgjedhor vullnetarë ndihmojnë në zgjedhje. Cila është një detyrë e ndihmuesve zgjedhor?",
 "sqa": [
 "Ata ndihmojnë fëmijët dhe njerëzit e moshuar në votim.",
 "Ata shkruajnë kartolina dhe letra me tregimin e vendit të zgjedhjeve.",
@@ -1206,7 +1206,7 @@
 ]
 },
 {
-"sq": "Kimin përfaqësojnë sindikatat në Gjermani?",
+"sq": "Kë përfaqësojnë sindikatat në Gjermani?",
 "sqa": [
 "ndërmarrje të mëdha",
 "ndërmarrje të vogla",
@@ -1272,7 +1272,7 @@
 "sq": "Cila është detyra kryesore e një gjyqtareje / gjyqtari në Gjermani? Një gjyqtare / gjyqtar ...",
 "sqa": [
 "përfaqëson qytetarët përpara gjykatës.",
-"punon në një gjykatë dhe shpall doma.",
+"punon në një gjykatë dhe shpall vendime.",
 "ndryshon ligjet.",
 "përkujdes për të rinjtë përpara gjykatës."
 ]
@@ -1408,8 +1408,8 @@
 "sqa": [
 "një diktaturë.",
 "një shtet demokratik.",
-"një monarkia.",
-"një fürstëm."
+"një monarki.",
+"një principatë."
 ]
 },
 {
@@ -1425,8 +1425,8 @@
 "sq": "Çfarë nuk përvojua Gjermania gjatë periudhës së nacionalsocializmit?",
 "sqa": [
 "zgjedhje të lira",
-"censuri të shtypit",
-"artime arbitrare",
+"censurë e shtypit",
+"arrestime arbitrare",
 "përndjekje të hebrenjve"
 ]
 },
@@ -1444,7 +1444,7 @@
 "sqa": [
 "e racizmit shtetëror",
 "e lirisë së mendimit",
-"e lirisë religjioze të përgjithshme",
+"e lirisë fetare të përgjithshme",
 "e zhvillimit të demokracisë"
 ]
 },
@@ -1458,7 +1458,7 @@
 ]
 },
 {
-"sq": "Në cilin vit nacionalsocalistët shkatërruan sinagogarit dhe bizneset hebraike në Gjermaninë?",
+"sq": "Në cilin vit nacionalsocialistët shkatërruan sinagogarit dhe bizneset hebraike në Gjermaninë?",
 "sqa": [
 "1925",
 "1930",
@@ -1471,7 +1471,7 @@
 "sqa": [
 "Me sulmit në Poloni fillon Lufta e Dytë Botërore.",
 "Nacionalsocalistët humbin zgjedhje dhe shpërndajnë Reichstag.",
-"Bizneset hebraike dhe sinagogat shkatërroheshin nga nacionalsocalistët dhe ndjekësit e tyre.",
+"Bizneset hebraike dhe sinagogat shkatërroheshin nga nacionalsocialistët dhe ndjekësit e tyre.",
 "Hitler bëhet Presidenti Riksh dhe ndalon të gjithë partitë."
 ]
 },
@@ -1485,7 +1485,7 @@
 ]
 },
 {
-"sq": "Në cilat demonstrata në Gjermaninë njerëzit bërtisnin \"Ne jemi populla\"?",
+"sq": "Në cilat demonstrata në Gjermaninë njerëzit bërtisnin \"Ne jemi populli\"?",
 "sqa": [
 "gjatë ngritjes punëtore 1953 në RDB",
 "gjatë demonstratave 1968 në Republikën Federale të Gjermanisë",
@@ -1606,7 +1606,7 @@
 "sqa": [
 "me vdekjen e Adolf Hitlerit",
 "përmes dorëheqjes së pakushtëzuar të Gjermanisë",
-"me tërheqjen e germanëve nga territoret e zëna",
+"me tërheqjen e gjermanëve nga territoret e zëna",
 "përmes revolucionit në Gjermaninë"
 ]
 },
@@ -1622,7 +1622,7 @@
 {
 "sq": "Çfarë donte të shprehte Willy Brandt me përkuljen e tij 1970 në ish-geton hebraik të Varsavisë?",
 "sqa": [
-"Ai i përqeshej aleatëve të vjetër.",
+"Ai iu nënshtrua aleatëve të mëparshëm.",
 "Ai kërkoi falje nga Polonia dhe hebrenjvë polakë.",
 "Ai tregoi përulësinë e tij para Paktit të Varshavisë.",
 "Ai bëri lutje në varrin e Ushtarit të Panjohur."
@@ -1759,7 +1759,7 @@
 "sqa": [
 "nga një diktaturë në demokraci.",
 "nga një ekonomi e lirë e tregut në socializëm.",
-"nga një monarkia në socialdemokraci.",
+"nga një monarki në socialdemokraci.",
 "nga një shtet fetaran në një shtet komunist."
 ]
 },
@@ -1845,7 +1845,7 @@
 ]
 },
 {
-"sq": "Cilit kujtojnë të ashtuquajturit \"Guri i Këmbimit\" në Gjermani?",
+"sq": "Cilit kujtojnë të ashtuquajturit \"Stolpersteine (gurë përkujtimorë)\" në Gjermani?",
 "sqa": [
 "politikanëve të famshëm gjermanë",
 "viktimave të nazizmit",
@@ -2047,7 +2047,7 @@
 "sqa": [
 "Zgjerimi i NATO-s në Lindje",
 "Zgjerimi i BE-së në Lindje",
-"Riashkimi Gjerman",
+"Ribashkimi Gjerman",
 "Bashkësia Evropiane"
 ]
 },
@@ -2160,11 +2160,11 @@
 ]
 },
 {
-"sq": "Zonja Seger ka një fëmijë. Çfarë duhet të bëjë për të marrë ndihmën për prindsit?",
+"sq": "Zonja Seger ka një fëmijë. Çfarë duhet të bëjë për të marrë ndihmën për prindërit?",
 "sqa": [
 "Duhet të shkruajë te fondi shëndetsor i saj",
-"Duhet të paraqesë një kërkesë te zyrja e ndihmës për prindsit",
-"Duhet të mos bëjë asgjë, sepse merr automatikisht ndihmën për prindsit",
+"Duhet të paraqesë një kërkesë te zyrja e ndihmës për prindërit",
+"Duhet të mos bëjë asgjë, sepse merr automatikisht ndihmën për prindërit",
 "Duhet të kërkojë leje nga Zyra e Punësimit"
 ]
 },
@@ -2173,7 +2173,7 @@
 "sqa": [
 "shteti",
 "vendet federale",
-"prindsit / të rriturit përgjegjës",
+"prindërit / të rriturit përgjegjës",
 "shkollat"
 ]
 },
@@ -2216,7 +2216,7 @@
 {
 "sq": "Një grua është shtatzënë. Ajo është e mbrojtur në mënyrë të veçantë nga ligji pak kohë para dhe pas lindjes së fëmijës. Si quhet kjo mbrojtje?",
 "sqa": [
-"koha e prindsit",
+"koha e prindërit",
 "mbrojtja e nënave",
 "përgatitja para lindjes",
 "perioda e shërim"
@@ -2235,7 +2235,7 @@
 "sq": "Kush është në Gjermani kryesisht i përgjegjshëm për edukimin e fëmijëve?",
 "sqa": [
 "shteti",
-"prindsit",
+"prindërit",
 "të afërmit",
 "shkollat"
 ]
@@ -2286,7 +2286,7 @@
 ]
 },
 {
-"sq": "Me probleme edukimi, prindsit në Gjermani mund të marrin ndihmë nga …",
+"sq": "Me probleme edukimi, prindërit në Gjermani mund të marrin ndihmë nga …",
 "sqa": [
 "zyra e rendit",
 "zyra e shkollës",
@@ -2317,7 +2317,7 @@
 "sqa": [
 "Vendos se cilën shkollë do të vizitojë fëmija",
 "Mund ta nxjerrë një fëmijë nga familja nëse rrahet ose ka uri",
-"Paguan ndihmën për fëmijë te prindsit",
+"Paguan ndihmën për fëmijë te prindërit",
 "Kontrollon nëse fëmija shkon në kopshtin e fëmijëve"
 ]
 },
@@ -2372,7 +2372,7 @@
 "të Hënës së Rozës",
 "të Ditës së Punës",
 "Oktoberfest",
-"Pëngjelje"
+"Rrëshajët"
 ]
 },
 {
@@ -2423,7 +2423,7 @@
 {
 "sq": "Shkolla popullore në Gjermani është një institucion …",
 "sqa": [
-"për mësimin e religjonit.",
+"për mësimin e fesë.",
 "vetëm për të rinjtë.",
 "për arsimimin e vazhdueshëm.",
 "vetëm për pensionistët e pensionateve."
@@ -2435,7 +2435,7 @@
 "fshehja e vezëve me ngjyra",
 "zbukurimi i një peme të pishës",
 "veshja me kostume dhe maska",
-"vendosja e kungdraguarit në derë"
+"vendosja e kungujt në derë"
 ]
 },
 {
@@ -2637,7 +2637,7 @@
 ]
 },
 {
-"sq": "Përbotnësia është një …",
+"sq": "Rrëshajët është një …",
 "sqa": [
 "festë kristiane.",
 "ditë kujtimi gjermane.",
@@ -2763,7 +2763,7 @@
 ]
 },
 {
-"sq": "Cili është Bandit Federal i Bavarës?",
+"sq": "Cili land federal është Bavaria?",
 "sqa": [
 "1",
 "2",
