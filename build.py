@@ -8,7 +8,7 @@ OUT  = os.path.join(HERE, "index.html")
 IMG = {
     "Welches ist das Wappen der Bundesrepublik Deutschland?": "aufgabe_21.png",
     "Was zeigt dieses Bild?": "aufgabe_55.png",
-    "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?": "aufgabe_187.png",
+    "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?": "aufgabe_130.png",
     "Welches war das Wappen der Deutschen Demokratischen Republik?": "aufgabe_21.png",
     "Welche ist die Flagge der Europäischen Union?": "aufgabe_226.png",
     "Welches Wappen gehört zum Freistaat Bayern?": "bayern_1.png",
