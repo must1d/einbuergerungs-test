@@ -66,6 +66,7 @@
   .rev-item .rq{font-weight:600; margin-bottom:6px}
   .rev-item .ra{color:var(--ok); font-size:16px}
   .center{text-align:center; color:var(--muted); margin-top:40px}
+  .src{color:var(--muted); font-size:12.5px; line-height:1.4; text-align:center; margin-top:28px}
   .shqip-btn{display:block; width:100%; padding:13px; margin-top:14px; border:2px dashed var(--accent);
     border-radius:12px; background:transparent; color:var(--accent); font-size:16px; font-weight:600}
   .alb{margin-top:14px; padding:14px; border-radius:12px; background:var(--card); border-left:5px solid var(--accent)}
@@ -121,6 +122,7 @@ function home(){
     <button class="menu-btn" id="m-pruef">Prüfung simulieren<small>33 Fragen · bestanden ab 17 richtig</small></button>
     <button class="menu-btn" id="m-karten">Karteikarten<small>Frage ansehen, Antwort aufdecken</small></button>
     <button class="menu-btn" id="m-fehler">Fehler wiederholen ${n?`<span class="badge">${n}</span>`:''}<small>Nur falsch beantwortete Fragen</small></button>
+    <p class="src">Quelle: amtlicher BAMF-Gesamtfragenkatalog „Leben in Deutschland" / „Einbürgerungstest", Stand 07.05.2025.<br>Als aktuellste Version bestätigt am 15.07.2026.</p>
   </div>`);
   el.querySelector('#m-uben').onclick = practiceMenu;
   el.querySelector('#m-pruef').onclick = startExam;
